@@ -55,6 +55,26 @@ systems or distributed systems.
 Section 1: Thursdays 10:10 AM – 12:40 PM<br />
 Section 2: Thursdays 1:10 PM – 3:40 PM
 
+## Grade Breakdown
+5% Programming Homework 1 (SQL) <br />
+5% Written Homework 1 <br />
+10% Programming Homework 2 (indexing and filtering data structures) <br />
+5% Written Homework 2 <br />
+30% Midterm <br />
+45% Final
+
+## Strict Late Submission Policy
+There will be no late submissions. Late submissions will receive a grade of 0.
+You will have plenty of time to submit your assignments, so exercise proper
+time management.
+
+## Collaboration/Copying Policy
+All assignments will be done individually. We will enforce this policy when
+checking the assignments (we use a code similarity system).
+
+## Course Materials
+No textbook.
+
 ## Schedule (this is a work in progress, and is likely to change)
 <table>
 <colgroup>
@@ -149,22 +169,4 @@ Section 2: Thursdays 1:10 PM – 3:40 PM
 </tbody>
 </table>
 
-## Grade Breakdown
-5% Programming Homework 1 (SQL) <br />
-5% Written Homework 1 <br />
-10% Programming Homework 2 (indexing and filtering data structures) <br />
-5% Written Homework 2 <br />
-30% Midterm <br />
-45% Final
 
-## Strict Late Submission Policy
-There will be no late submissions. Late submissions will receive a grade of 0.
-You will have plenty of time to submit your assignments, so exercise proper
-time management.
-
-## Collaboration/Copying Policy
-All assignments will be done individually. We will enforce this policy when
-checking the assignments (we use a code similarity system).
-
-## Course Materials
-No textbook.
