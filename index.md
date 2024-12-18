@@ -46,8 +46,7 @@ The class will be split into two sections, which will have identical content, an
 Asaf Cidon
 
 ## Prerequisites
-Students are expected to have solid programming experience in Python or with an
-equivalent programming language. This class is intended to be accessible for
+Students are expected to have solid programming experience in Python. This class is intended to be accessible for
 data scientists who do not necessarily have a background in databases, operating
 systems or distributed systems.
 
