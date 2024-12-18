@@ -60,8 +60,8 @@ Section 2: Thursdays 1:10 PM – 3:40 PM
 5% Written Homework 1 <br />
 10% Programming Homework 2 (indexing and filtering data structures) <br />
 5% Written Homework 2 <br />
-30% Midterm <br />
-45% Final
+20% "Take Home" Midterm <br />
+55% In Person Final
 
 ## Strict Late Submission Policy
 There will be no late submissions. Late submissions will receive a grade of 0.
@@ -166,7 +166,6 @@ No textbook.
 <th></th>
 </tr>
 <tr>
-</tbody>
-</table>
+
 
 
