@@ -52,7 +52,7 @@ data scientists who do not necessarily have a background in databases, operating
 systems or distributed systems.
 
 ## Time
-Section 1: Thursdays 10:10 AM – 12:40 PM, 
+Section 1: Thursdays 10:10 AM – 12:40 PM<br />
 Section 2: Thursdays 1:10 PM – 3:40 PM
 
 ## Schedule (this is a work in progress, and is likely to change)
@@ -150,11 +150,11 @@ Section 2: Thursdays 1:10 PM – 3:40 PM
 </table>
 
 ## Grade Breakdown
-5% Programming Homework 1 (SQL) \\
-5% Written Homework 1 \\
-10% Programming Homework 2 (indexing and filtering data structures) \\
-5% Written Homework 2 \\
-30% Midterm \\
+5% Programming Homework 1 (SQL) <br />
+5% Written Homework 1 <br />
+10% Programming Homework 2 (indexing and filtering data structures) <br />
+5% Written Homework 2 <br />
+30% Midterm <br />
 45% Final
 
 ## Strict Late Submission Policy
