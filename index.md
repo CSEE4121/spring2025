@@ -9,7 +9,7 @@ menu: main
 
 CSEE4121 - Computer Systems for Data Science 
 {: style="color:black; font-size: 190%; font-weight:700; text-align: center; padding-top: 15px;"}
-Spring 2025, Columbia University
+Spring '24, Columbia University
 {: style="color:black; font-size: 130%; text-align: center; padding-bottom: 30px;"}
 
 ----
@@ -41,17 +41,33 @@ conducting analysis on large data sets?</li>
 {: .text-justify}
 
 ## Instructor
-Asaf Cidon
+Sambit Sahu - ss3876@columbia.edu
 
-OH: TBD
+OH: CEPSR (Schapiro Building) 7W51 Thursday 6:00pm-6:50pm
 
 ## TAs
 [OH Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_cd34b309dbe3126f513b87e9c29d50873242a639550137021c720fcf3909c267@group.calendar.google.com&ctz=America/New_York)
 
-TBD
+<table>
+  <tr>
+    <td>Mooizz Abdul - ma4496@columbia.edu</td>
+    <td>Nipun Navin Agarwal - nna2132@columbia.edu</td>
+  </tr>
+  <tr>
+    <td>Mohini Mangesh Bhave - mb5157@columbia.edu</td>
+    <td>Samhit Chowdary Bhogavalli - sb4845@columbia.edu</td>
+  </tr>
+  <tr>
+    <td>Tanisha Bisht - tb3061@columbia.edu</td>
+    <td>Ajit Sharma Kasturi - ak5055@columbia.edu</td>
+  </tr>
+  <tr>
+    <td>Anvith Pabba - ap4450@columbia.edu</td>
+  </tr>
+</table> 
 
 ## Ed
-TBD
+[Link](https://edstem.org/us/courses/54718/discussion/)
 
 ## Prerequisites
 Students are expected to have solid programming experience in Python or with an
@@ -76,13 +92,13 @@ systems or distributed systems.
 <tbody>
 <tr>
 <td markdown="span">1</td>
-<td markdown="span">Introduction</td>
+<td markdown="span">Introduction (<a href="https://www.dropbox.com/scl/fi/mpj2twbm1l5dnfc6vvbau/Topic-1.pdf?rlkey=5r4m47yd0ivi6h3rzue0ui5o1&dl=0">Slides</a>)</td>
 <th></th>
 </tr>
 <tr>
 <td markdown="span">2</td>
-<td markdown="span">Relational Data Model</td>
-<th markdown="1">Programming Homework 1 released (TBD)</th>
+<td markdown="span">Relational Data Model (<a href="https://www.dropbox.com/s/z1vvm34hhwq1csj/Topic%202%20-%20relational%20model.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">[Programming Homework 1 released (February 1st, 2024)]({{ site.baseurl }}{%link assignments/prog_hw1/prog_hw1.md %})</th>
 </tr>
 <tr>
 <td markdown="span">3</td>
@@ -91,28 +107,28 @@ systems or distributed systems.
 </tr>
 <tr>
 <td markdown="span">4</td>
-<td markdown="span">Transactions and Logging</td>
+<td markdown="span">Transactions and Logging (<a href="https://www.dropbox.com/s/oajai8bm781wiv0/Topic%203%20-%20transactions%20and%20ACID.pdf?dl=0">Slides</a>)</td>
 <th></th>
 </tr>
 <tr>
 <td markdown="span">5</td>
-<td markdown="span">Storage/memory hierarchy</td>
-<th markdown="1">Written Homework 1 released (TBD) (On Gradescope)</th>
+<td markdown="span">Storage/memory hierarchy (<a href="https://www.dropbox.com/s/aiy5rlmuz8xcpwd/Topic%204%20-%20single%20DB%20architecture.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">Written Homework 1 released (February 15, 2024) (On Gradescope)</th>
 </tr>
 <tr>
 <td markdown="span">6</td>
 <td markdown="span"> Indices and bloom filters</td>
-<th markdown="1">Programming Homework 1 due (TBD)</th>
+<th markdown="1">Programming Homework 1 due (February 22, 2024 4:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">7</td>
-<td markdown="span">Distributed file systems</td>
-<th markdown="1">Written Homework 1 due (TBD)</th>
+<td markdown="span">Distributed file systems (<a href="https://www.dropbox.com/s/q3hloco1elfgek9/Topic%205%20-%20Distributed%20File%20Systems%20and%20Databases.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">Written Homework 1 due (February 29, 2024 4:59:59PM)</th>
 <th></th>
 </tr>
 <tr>
 <td markdown="span">8</td>
-<td markdown="span">Midterm (TBD)</td>
+<td markdown="span">Midterm on 3/7 (all material up to Topic 4, not including RocksDB)</td>
 <th></th>
 </tr>
 <tr>
@@ -122,7 +138,7 @@ systems or distributed systems.
 </tr>
 <tr>
 <td markdown="span">10</td>
-<td markdown="span">MapReduce and stragglers</td>
+<td markdown="span">MapReduce and stragglers (<a href="https://www.dropbox.com/s/o5uwaa3fo8tv9ch/Topic%206%20-%20MapReduce%20and%20Spark.pdf?dl=0">Slides</a>)</td>
 <th></th>
 </tr>
 <tr>
@@ -132,32 +148,32 @@ systems or distributed systems.
 </tr>
 <tr>
 <td markdown="span">12</td>
-<td markdown="span">Caching</td>
-<th markdown="1">Programming Homework 2 released (TBD)</th>
+<td markdown="span">Caching (<a href="https://www.dropbox.com/s/5sggarpl2kx1oxn/Topic%207%20-%20Caching.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">[Programming Homework 2 released (April 4th, 2024)]({{ site.baseurl }}{%link assignments/prog_hw2/hw2.md %})</th>
 </tr>
 <tr>
 <td markdown="span">13</td>
-<td markdown="span">Machine Learning</td>
+<td markdown="span">Machine Learning (<a href="https://www.dropbox.com/s/ub35qceqpbo7c31/Topic%208%20-%20Systems%20for%20Machine%20Learning.pdf?dl=0">Slides</a>)</td>
 <th></th>
 </tr>
 <tr>
 <td markdown="span">14</td>
-<td markdown="span">Security</td>
-<th markdown="1">Written Homework 2 released (TBD)</th>
+<td markdown="span">Security (<a href="https://www.dropbox.com/s/9rz9n9gvhw2iajq/Topic%209%20-%20Data%20Security%20and%20Compliance.pdf?dl=0">Slides</a>)</td>
+<th markdown="1">Written Homework 2 released (April 11th, 2024)</th>
 </tr>
 <tr>
 <td markdown="span">15</td>
 <td markdown="span">Data Quality and Review</td>
-<th markdown="1">Programming Homework 2 due (TBD)</th>
+<th markdown="1">Programming Homework 2 due (April 25th, 2024)</th>
 </tr>
 <tr>
 <td markdown="span">16</td>
 <td markdown="span"></td>
-<th markdown="1">Written Homework 2 due (TBD)</th>
+<th markdown="1">Written Homework 2 due (May 2, 2024)</th>
 </tr>
 <tr>
 <td markdown="span">17</td>
-<td markdown="span">Final Exam (TBD)</td>
+<td markdown="span">Final Exam (May 9, 2024)</td>
 <th></th>
 </tr>
 </tbody>
@@ -186,4 +202,3 @@ similarity system).
 
 ## Course Materials
 No textbook.
-
