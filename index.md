@@ -94,7 +94,7 @@ No textbook.
 <tbody>
 <tr>
 <td markdown="span">1</td>
-<td markdown="span">Introduction</td>
+<td markdown="span">Introduction <a href=https://www.dropbox.com/scl/fi/vygknhau4vvwes7kpoikg/Topic-1-intro-and-rules-of-thumb-asaf.pdf">Slides</a>)</td>
 <th></th>
 </tr>
 <tr>
