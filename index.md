@@ -45,6 +45,9 @@ The class will be split into two sections, which will have identical content, an
 ## Instructor
 Asaf Cidon
 
+## TAs
+Yuhong Zhong (Head TA), Triyasha Ghosh Dastidar, Vahab Jabrayilov, Hans Shen, Haoda Wang, Tal Zussman
+
 ## Prerequisites
 Students are expected to have solid programming experience in Python. This class is intended to be accessible for
 data scientists who do not necessarily have a background in databases, operating
