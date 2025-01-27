@@ -46,7 +46,18 @@ The class will be split into two sections, which will have identical content, an
 Asaf Cidon
 
 ## TAs
-Yuhong Zhong (Head TA), Triyasha Ghosh Dastidar, Vahab Jabrayilov, Hans Shen, Haoda Wang, Tal Zussman
+
+[OH Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_cd34b309dbe3126f513b87e9c29d50873242a639550137021c720fcf3909c267@group.calendar.google.com&ctz=America/New_York)
+
+<ul>
+  <li>Yuhong Zhong (Head TA): yz@cs.columbia.edu</li>
+  <li>Triyasha Ghosh Dastidar: tg2936@columbia.edu</li>
+  <li>Vahab Jabrayilov: vj2267@columbia.edu</li>
+  <li>Hans Shen: ys3524@columbia.edu</li>
+  <li>Harry Wang: hw2886@columbia.edu</li>
+  <li>Tal Zussman: tz2294@columbia.edu</li>
+</ul>
+{: .text-justify}
 
 ## Prerequisites
 Students are expected to have solid programming experience in Python. This class is intended to be accessible for
