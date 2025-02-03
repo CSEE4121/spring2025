@@ -47,7 +47,7 @@ Asaf Cidon
 
 ## TAs
 
-[OH Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_cd34b309dbe3126f513b87e9c29d50873242a639550137021c720fcf3909c267@group.calendar.google.com&ctz=America/New_York)
+[Office Hour Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_cd34b309dbe3126f513b87e9c29d50873242a639550137021c720fcf3909c267@group.calendar.google.com&ctz=America/New_York)
 
 <ul>
   <li>Yuhong Zhong (Head TA): yz@cs.columbia.edu</li>
@@ -110,33 +110,33 @@ No textbook.
 <tbody>
 <tr>
 <td markdown="span">1</td>
-<td markdown="span">Introduction ([Slides]({{ site.baseurl }}{%link lectures/lecture1.pdf %}))</td>
+<td markdown="span">Introduction (1/23, [Slides]({{ site.baseurl }}{%link lectures/lecture1.pdf %}))</td>
 <th></th>
 </tr>
 <tr>
 <td markdown="span">2</td>
-<td markdown="span">Infrastructure for Big Data</td>
-<th>Programming HW 1 out</th>
-</tr>
-<tr>
-<td markdown="span">3</td>
-<td markdown="span">Relational Data Model</td>
+<td markdown="span">Infrastructure for Big Data (1/30)</td>
 <th></th>
 </tr>
 <tr>
+<td markdown="span">3</td>
+<td markdown="span">Relational Data Model (2/6)</td>
+<th>Programming HW 1 out</th>
+</tr>
+<tr>
 <td markdown="span">4</td>
-<td markdown="span">Transactions and Logging</td>
+<td markdown="span">Transactions and Logging (2/13)</td>
 <th>Written homework 1 out</th>
 </tr>
 <tr>
 <td markdown="span">5</td>
-<td markdown="span">Storage/memory hierarchy</td>
-<th>Programming HW 1 due</th>
+<td markdown="span">Storage/memory hierarchy (2/20)</td>
+<th></th>
 </tr>
 <tr>
 <td markdown="span">6</td>
-<td markdown="span"> Indexing</td>
-<th>Written homework 1 due, Programming HW 2 out</th>
+<td markdown="span"> Indexing (2/27)</td>
+<th>Programming HW 1 due (2/27, 5:00 PM), Written homework 1 due, Programming HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">7</td>
@@ -145,7 +145,7 @@ No textbook.
 </tr>
 <tr>
 <td markdown="span">8</td>
-<td markdown="span">Challenges in Scaling</td>
+<td markdown="span">Challenges in Scaling (3/13)</td>
 <th></th>
 </tr>
 <tr>
@@ -155,27 +155,27 @@ No textbook.
 </tr>
 <tr>
 <td markdown="span">10</td>
-<td markdown="span">Analytics</td>
+<td markdown="span">Analytics (3/27)</td>
 <th>Programming HW 2 due</th>
 </tr>
 <tr>
 <td markdown="span">11</td>
-<td markdown="span">ML Single Node</td>
+<td markdown="span">ML Single Node (4/3)</td>
 <th>Written HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">12</td>
-<td markdown="span">Distributed ML</td>
+<td markdown="span">Distributed ML (4/10)</td>
 <th></th>
 </tr>
 <tr>
 <td markdown="span">13</td>
-<td markdown="span">Security and Privacy</td>
+<td markdown="span">Security and Privacy (4/17)</td>
 <th></th>
 </tr>
 <tr>
 <td markdown="span">14</td>
-<td markdown="span">Guest Lecture: Junaid Ahmed, VP Engineering, Observability, DataDog. 5:30 PM for both sections, in person + live on Zoom + recorded</td>
+<td markdown="span">Guest Lecture: Junaid Ahmed, VP Engineering, Observability, DataDog. 5:30 PM for both sections, in person + live on Zoom + recorded (4/24)</td>
 <th>Written HW 2 due</th>
 </tr>
 <tr>
