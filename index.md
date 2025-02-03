@@ -59,7 +59,12 @@ Asaf Cidon
 </ul>
 {: .text-justify}
 
+## Ed
+
+[Link](https://edstem.org/us/courses/74149/discussion)
+
 ## Prerequisites
+
 Students are expected to have solid programming experience in Python. This class is intended to be accessible for
 data scientists who do not necessarily have a background in databases, operating
 systems or distributed systems.
@@ -179,6 +184,5 @@ No textbook.
 <th></th>
 </tr>
 <tr>
-
 
 
