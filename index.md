@@ -136,7 +136,7 @@ No textbook.
 <tr>
 <td markdown="span">6</td>
 <td markdown="span"> Indexing (2/27)</td>
-<th>Programming HW 1 due (2/27, 5:00 PM), Written homework 1 due, Programming HW 2 out</th>
+<th>Programming HW 1 due (2/27, 4:59:59 PM), Written homework 1 due, Programming HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">7</td>
