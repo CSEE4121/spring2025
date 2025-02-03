@@ -121,7 +121,7 @@ No textbook.
 <tr>
 <td markdown="span">3</td>
 <td markdown="span">Relational Data Model (2/6)</td>
-<th markdown="1">[Programming Homework 1 released (February 1st, 2024)](https://csee4121.github.io/spring2025/assignments/prog_hw1/prog_hw1)</th>
+<th markdown="1">[Programming Homework 1 out (2/3)](https://csee4121.github.io/spring2025/assignments/prog_hw1/prog_hw1)</th>
 </tr>
 <tr>
 <td markdown="span">4</td>
