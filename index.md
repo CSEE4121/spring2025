@@ -121,7 +121,7 @@ No textbook.
 <tr>
 <td markdown="span">3</td>
 <td markdown="span">Relational Data Model (2/6)</td>
-<th>Programming HW 1 out</th>
+<th>[Programming HW 1 out (2/3)](https://csee4121.github.io/spring2025/assignments/prog_hw1/prog_hw1)</th>
 </tr>
 <tr>
 <td markdown="span">4</td>
