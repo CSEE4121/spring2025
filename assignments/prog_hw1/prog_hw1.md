@@ -2,7 +2,7 @@
 
 Gain a hands-on understanding of Google BigQuery and SQL.
 
-Due: **2/27/2025 (Thursday), 4:59:59 PM**
+Due: **3/6/2025 (Thursday), 4:59:59 PM**
 
 ## Overview
 

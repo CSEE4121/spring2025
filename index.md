@@ -73,6 +73,11 @@ systems or distributed systems.
 Section 1: Thursdays 10:10 AM – 12:40 PM<br />
 Section 2: Thursdays 1:10 PM – 3:40 PM
 
+## Final Exam
+Date: Friday, May 2, 2025<br />
+Time: 10:10 AM – 12:40 PM<br />
+Location: International Affairs Building, IAB 417 - Altschul
+
 ## Grade Breakdown
 5% Programming Homework 1 (SQL) <br />
 5% Written Homework 1 <br />
@@ -136,12 +141,12 @@ No textbook.
 <tr>
 <td markdown="span">6</td>
 <td markdown="span"> Indexing (2/27)</td>
-<th>Programming HW 1 due (2/27, 4:59:59 PM), Written homework 1 due, Programming HW 2 out</th>
+<th>Written homework 1 due, Programming HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">7</td>
 <td markdown="span">Midterm</td>
-<th></th>
+<th>Programming HW 1 due (3/6, 4:59:59 PM)</th>
 </tr>
 <tr>
 <td markdown="span">8</td>
@@ -180,7 +185,7 @@ No textbook.
 </tr>
 <tr>
 <td markdown="span">15</td>
-<td markdown="span">Final Exam</td>
+<td markdown="span">Final Exam (5/2, 10:10 AM – 12:40 PM)</td>
 <th></th>
 </tr>
 <tr>
