@@ -142,13 +142,13 @@ Do not edit the file manually after downloading -- it may break our autograder.
    | :--: | :---: |
    |      |       |
 
-2. (1 point) List the top 10 licenses with the most associated repos, in descending order by count.
+2. (1 point) List the top 10 licenses used by the most repos, along with the number of repos using each, in descending order of repo count.
 
    | license | count |
    | :-----: | :---: |
    |         |       |
 
-3. (2 points) You might have noticed that some licenses belong to the same family (e.g., `gpl-2.0` and `gpl-3.0`). List the license families along with the number of associated repos, in descending order by count.
+3. (2 points) You might have noticed that some licenses belong to the same family (e.g., `gpl-2.0` and `gpl-3.0`). List the license families along with the number of repos using each, in descending order by repo count.
 
    We categorize the family of a license as follows. If the license contains:
 
