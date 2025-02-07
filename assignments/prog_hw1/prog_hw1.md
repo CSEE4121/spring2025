@@ -136,7 +136,7 @@ Do not edit the file manually after downloading -- it may break our autograder.
 
 1. (1 point) List the names of the top 10 authors (*not* committers) with the highest number of commits. Order them by the highest number of commits (i.e., in descending order).
 
-   Note that some authors use more than one names, and different authors might have the same name. To simplify the problem, please use the **combination of name and email** as the unique identifier for each author.
+   Note that some authors use more than one names, and different authors might have the same name. To simplify the problem, please use the **combination of name and email** as the unique identifier for each author (but only output the name).
 
    | name | count |
    | :--: | :---: |
