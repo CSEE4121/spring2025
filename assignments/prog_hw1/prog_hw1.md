@@ -234,73 +234,73 @@ Do not edit the file manually after downloading -- it may break our autograder.
 
 10. (1 point) Which weekday had the most commits committed?
 
-    List the day (using numbers 1-7) along with the total number of commits on that day. Use the committer’s date as the time a commit is considered committed.
+   List the day (using numbers 1-7) along with the total number of commits on that day. Use the committer’s date as the time a commit is considered committed.
 
-    Order by the number of commits (descending).
+   Order by the number of commits (descending).
 
-    **HINT**: The `DAYOFWEEK` function allows you to extract the weekday. Its range is 1-7, with 1 corresponding to Sunday. The values of the `day_num` column should be numerical.
+   **HINT**: The `DAYOFWEEK` function allows you to extract the weekday. Its range is 1-7, with 1 corresponding to Sunday. The values of the `day_num` column should be numerical.
 
-    | day_num | count |
-    |---------|-------|
-    |         |       |
+   | day_num | count |
+   |---------|-------|
+   |         |       |
 
-    It is not surprising that there are not many commits during weekends.
+   It is not surprising that there are not many commits during weekends.
 
 11. (2 points) What is the correlation between the number of commits and the watch count of a repo?
 
-    List all the repos along with their commit count and watch count.
+   List all the repos along with their commit count and watch count.
 
-    Order by the number of commits (descending).
+   Order by the number of commits (descending).
 
-    | repo_name | commit_count | watch_count |
-    | :-------: | :----------: | :---------: |
-    |           |              |             |
+   | repo_name | commit_count | watch_count |
+   | :-------: | :----------: | :---------: |
+   |           |              |             |
 
 12. (2 point) Who authored the most commits, and which repos did they contribute to the most?
 
-    List the top 10 authors (*not* committers) who authored most commits along with (1) the total number of commits they authored across all repos, and (2) the repo that they contributed the most.
+   List the top 10 authors (*not* committers) who authored most commits along with (1) the total number of commits they authored across all repos, and (2) the repo that they contributed the most.
 
-    To simplify the problem, please use the combination of name and email as the unique identifier for authors.
+   To simplify the problem, please use the combination of name and email as the unique identifier for authors.
 
-    Order by the total number of commits they authored in all repos (descending).
+   Order by the total number of commits they authored in all repos (descending).
 
-    | author_name | commit_count | repo_name |
-    | :---------: | :----------: | :-------: |
-    |             |              |           |
+   | author_name | commit_count | repo_name |
+   | :---------: | :----------: | :-------: |
+   |             |              |           |
 
 13. (2 point) Git allows a committer to commit on behalf of an author. For example, when you create a pull request on GitHub to contribute to an open-source project, the maintainer can commit your changes on your behalf after approving them.
 
-    For each repo, calculate the ratio of commits where the author is the same as the committer. This ratio is obtained by dividing the number of such commits by the total number of commits in the repo (i.e., a ratio of 1 means that the author is the committer for all commits). Round the ratio to **two decimal places**.
+   For each repo, calculate the ratio of commits where the author is the same as the committer. This ratio is obtained by dividing the number of such commits by the total number of commits in the repo (i.e., a ratio of 1 means that the author is the committer for all commits). Round the ratio to **two decimal places**.
 
-    To simplify the problem, please use the combination of name and email as the unique identifier for authors and committers.
+   To simplify the problem, please use the combination of name and email as the unique identifier for authors and committers.
 
-    Order by `repo_name` (descending).
+   Order by `repo_name` (descending).
 
-    **HINT**: Use the `ROUND` function for rounding the ratio to the appropriate number of decimal places.
+   **HINT**: Use the `ROUND` function for rounding the ratio to the appropriate number of decimal places.
 
-    | repo_name | ratio |
-    | :-------: | :---: |
-    |           |       |
+   | repo_name | ratio |
+   | :-------: | :---: |
+   |           |       |
 
 14. (2 points) For each repo, find the author who authored most commits, the committer who committed most commits, and the language that occupies the most bytes.
 
-    To simplify the problem, please use the combination of name and email as the unique identifier for authors and committers.
+   To simplify the problem, please use the combination of name and email as the unique identifier for authors and committers.
 
-    Order by `repo_name` (descending).
+   Order by `repo_name` (descending).
 
-    | repo_name | author_name | committer_name | language |
-    | :-------: | :---------: | :------------: | :------: |
-    |           |             |                |          |
+   | repo_name | author_name | committer_name | language |
+   | :-------: | :---------: | :------------: | :------: |
+   |           |             |                |          |
 
 15. (2 points) For repos that use the `mit` licence and with at least `8000` watch count, find the main author who authored most commits.
 
-    To simplify the problem, please use the combination of name and email as the unique identifier for authors.
+   To simplify the problem, please use the combination of name and email as the unique identifier for authors.
 
-    Order by `repo_name` (descending).
+   Order by `repo_name` (descending).
 
-    | repo_name | license | watch_count | author_name |
-    | :-------: | :-----: | :---------: | :---------: |
-    |           |         |             |             |
+   | repo_name | license | watch_count | author_name |
+   | :-------: | :-----: | :---------: | :---------: |
+   |           |         |             |             |
 
 
 
