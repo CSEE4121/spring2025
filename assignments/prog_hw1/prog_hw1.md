@@ -244,7 +244,7 @@ Do not edit the file manually after downloading -- it may break our autograder.
    | :-----: | :---: |
    |         |       |
 
-   It’s not surprising that there are not many commits during weekends.
+   It's not surprising that there are not many commits during weekends.
 
 11. (2 points) What is the correlation between the number of commits and the watch count of a repo?
 
