@@ -244,6 +244,8 @@ Do not edit the file manually after downloading -- it may break our autograder.
    | :-----: | :---: |
    |         |       |
 
+   It is not surprising that there are not many commits during weekends.
+
 11. (2 points) What is the correlation between the number of commits and the watch count of a repo?
 
     List all the repors along with their commit count and watch count.
