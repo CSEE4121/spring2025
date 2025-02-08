@@ -232,23 +232,23 @@ Do not edit the file manually after downloading -- it may break our autograder.
    | :--: | :---: |
    |      |       |
 
-10. (1 point) Which weekday had the most commits committed? 
+10. (1 point) Which weekday had the most commits committed?
 
-   List the day (using numbers 1-7) along with the total number of commits given that day. Use the committer's date as the time a commit is considered committed.
+    List the day (using numbers 1-7) along with the total number of commits on that day. Use the committer’s date as the time a commit is considered committed.
 
-   Order by the number of commits (descending).
+    Order by the number of commits (descending).
 
-   **HINT**: The `DAYOFWEEK` function allows you to extract the weekday. Its range is 1-7 with 1 corresponding to Sunday. The values of the `day_num` column should be numerical.
+    **HINT**: The `DAYOFWEEK` function allows you to extract the weekday. Its range is 1-7, with 1 corresponding to Sunday. The values of the `day_num` column should be numerical.
 
-   | day_num | count |
-   | :-----: | :---: |
-   |         |       |
+    | day_num | count |
+    |---------|-------|
+    |         |       |
 
-   It is not surprising that there are not many commits during weekends.
+    It is not surprising that there are not many commits during weekends.
 
 11. (2 points) What is the correlation between the number of commits and the watch count of a repo?
 
-    List all the repors along with their commit count and watch count.
+    List all the repos along with their commit count and watch count.
 
     Order by the number of commits (descending).
 
