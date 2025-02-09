@@ -136,171 +136,171 @@ Do not edit the file manually after downloading -- it may break our autograder.
 
 1. (1 point) List the names of the top 10 authors (*not* committers) with the highest number of commits. Order them by the highest number of commits (i.e., in descending order).
 
-   Note that some authors use more than one names, and different authors might have the same name. To simplify the problem, please use the **combination of name and email** as the unique identifier for each author (but only output the name).
+    Note that some authors use more than one names, and different authors might have the same name. To simplify the problem, please use the **combination of name and email** as the unique identifier for each author (but only output the name).
 
-   | name | count |
-   | :--: | :---: |
-   |      |       |
+    | name | count |
+    | :--: | :---: |
+    |      |       |
 
 2. (1 point) List the top 10 licenses used by the most repos, along with the number of repos using each, in descending order of repo count.
 
-   | license | count |
-   | :-----: | :---: |
-   |         |       |
+    | license | count |
+    | :-----: | :---: |
+    |         |       |
 
 3. (2 points) You might have noticed that some licenses belong to the same family (e.g., `gpl-2.0` and `gpl-3.0`). List the license families along with the number of repos using each, in descending order by repo count.
 
-   We categorize the family of a license as follows. If the license contains:
+    We categorize the family of a license as follows. If the license contains:
 
-   * `gpl` as a substring, it belongs to the `gpl` family
-   * `bsd` as a substring, it belongs to the `bsd` family
-   * `mit` as a substring, it belongs to the `mit` family
-   * All the other licenses belong to the `other` family
+    * `gpl` as a substring, it belongs to the `gpl` family
+    * `bsd` as a substring, it belongs to the `bsd` family
+    * `mit` as a substring, it belongs to the `mit` family
+    * All the other licenses belong to the `other` family
 
-   **NOTE: All strings above are case-sensitive.**
+    **NOTE: All strings above are case-sensitive.**
 
-   **NOTE**: Only use `SELECT` statements. No `UPDATE` statements are necessary.
-   You should use a series of `CASE ... WHEN` statements. No regexes are necessary.
+    **NOTE**: Only use `SELECT` statements. No `UPDATE` statements are necessary.
+    You should use a series of `CASE ... WHEN` statements. No regexes are necessary.
 
-   | family | count |
-   | :----: | :---: |
-   |        |       |
+    | family | count |
+    | :----: | :---: |
+    |        |       |
 
 4. (1 point) We now focus on the programming languages used in Github repos. List the names of the top 10 languages used by most repos, in descending order by count. 
 
-   As a repo might use multiple languages, count a repo for each language it uses.
+    As a repo might use multiple languages, count a repo for each language it uses.
 
-   **HINT**: Use [UNNEST](https://cloud.google.com/bigquery/docs/nested-repeated#query_nested_and_repeated_columns) to expand repeated columns.
+    **HINT**: Use [UNNEST](https://cloud.google.com/bigquery/docs/nested-repeated#query_nested_and_repeated_columns) to expand repeated columns.
 
-   | name | count |
-   | :--: | :---: |
-   |      |       |
-
+    | name | count |
+    | :--: | :---: |
+    |      |       |
+ 
 5. (2 points) We can calculate how much a programming language is used in a repo by dividing the number of bytes used in this language by the total number of bytes used across all languages. List the name of each programming language along with the number of repos where it accounts for at least 50% of the total usage, in descending order by the repo count.
 
-   Order by the repo count (descending), and then by language name (descending).
+    Order by the repo count (descending), and then by language name (descending).
 
-   **NOTE**: Having multiple ordering criteria serves as a tiebreaker mechanism, leading to deterministic output. The ordering criteria are listed in order of priority. That is, results should first be ordered by `count`, and then by `name`. **Make sure to follow this ordering priority!**
+    **NOTE**: Having multiple ordering criteria serves as a tiebreaker mechanism, leading to deterministic output. The ordering criteria are listed in order of priority. That is, results should first be ordered by `count`, and then by `name`. **Make sure to follow this ordering priority!**
 
-   **HINT**: Consider first adding a new column to represent the total number of bytes across all languages in a repo.
+    **HINT**: Consider first adding a new column to represent the total number of bytes across all languages in a repo.
 
-   | name | count |
-   | :--: | :---: |
-   |      |       |
+    | name | count |
+    | :--: | :---: |
+    |      |       |
 
 6. (2 points) What is the most popular repo that uses a given programming language?
 
-   List the name of each language along with the repo that has the higest watch count among the repos using this language, in descending order of the language name.
+    List the name of each language along with the repo that has the higest watch count among the repos using this language, in descending order of the language name.
 
-   For a repo that uses multiple languages, all these languages are considered regardless of the number of bytes.
+    For a repo that uses multiple languages, all these languages are considered regardless of the number of bytes.
 
-   **HINT**: Use the [MAX_BY](https://cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#max_by) function.
+    **HINT**: Use the [MAX_BY](https://cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#max_by) function.
 
-   | name | repo_name |
-   | :--: | :-------: |
-   |      |           |
+    | name | repo_name |
+    | :--: | :-------: |
+    |      |           |
 
 7. (2 points) Which programming languages are most common among the popular repos?
 
-   Among the top 100 repos with highest watch counts, list the name of each programming language used in these 100 repos and its occurance among these 100 repos, in descending order of the occurance. 
+    Among the top 100 repos with highest watch counts, list the name of each programming language used in these 100 repos and its occurance among these 100 repos, in descending order of the occurance. 
 
-   Order by the occurance (descending), and then by language name (descending).
+    Order by the occurance (descending), and then by language name (descending).
 
-   For a repo that uses multiple languages, all these languages are considered regardless of the number of bytes.
+    For a repo that uses multiple languages, all these languages are considered regardless of the number of bytes.
 
-   | name | occurance |
-   | :--: | :-------: |
-   |      |           |
+    | name | occurance |
+    | :--: | :-------: |
+    |      |           |
 
 8. (2 points) List the name of each programming language with the repo_name of the repo that has most commits among the repos using this language.
 
-   Order by the commit count of the repo with most commits (descending), and then by language name (descending).
+    Order by the commit count of the repo with most commits (descending), and then by language name (descending).
 
-   For a repo that uses multiple languages, all these languages are considered regardless of the number of bytes.
+    For a repo that uses multiple languages, all these languages are considered regardless of the number of bytes.
 
-   | name | repo_name |
-   | :--: | :-------: |
-   |      |           |
+    | name | repo_name |
+    | :--: | :-------: |
+    |      |           |
 
 9. (1 point) How does the number of commits change over time?
 
-   List the number of commits that were committed in each year, sorted in descending order by year. Use the committer's date as the time a commit is considered committed.
+    List the number of commits that were committed in each year, sorted in descending order by year. Use the committer's date as the time a commit is considered committed.
 
-   **HINT**: Use [EXTRACT](https://cloud.google.com/bigquery/docs/reference/standard-sql/date_functions#extract) to extract the year from a BigQuery timestamp.
+    **HINT**: Use [EXTRACT](https://cloud.google.com/bigquery/docs/reference/standard-sql/date_functions#extract) to extract the year from a BigQuery timestamp.
 
-   | year | count |
-   | :--: | :---: |
-   |      |       |
+    | year | count |
+    | :--: | :---: |
+    |      |       |
 
 10. (1 point) Which weekday had the most commits committed?
 
-   List the day (using numbers 1-7) along with the total number of commits on that day. Use the committer’s date as the time a commit is considered committed.
+    List the day (using numbers 1-7) along with the total number of commits on that day. Use the committer’s date as the time a commit is considered committed.
 
-   Order by the number of commits (descending).
+    Order by the number of commits (descending).
 
-   **HINT**: The `DAYOFWEEK` function allows you to extract the weekday. Its range is 1-7, with 1 corresponding to Sunday. The values of the `day_num` column should be numerical.
+    **HINT**: The `DAYOFWEEK` function allows you to extract the weekday. Its range is 1-7, with 1 corresponding to Sunday. The values of the `day_num` column should be numerical.
 
-   | day_num | count |
-   |---------|-------|
-   |         |       |
+    | day_num | count |
+    |---------|-------|
+    |         |       |
 
-   It is not surprising that there are not many commits during weekends.
+    It is not surprising that there are not many commits during weekends.
 
 11. (2 points) What is the correlation between the number of commits and the watch count of a repo?
 
-   List all the repos along with their commit count and watch count.
+    List all the repos along with their commit count and watch count.
 
-   Order by the number of commits (descending).
+    Order by the number of commits (descending).
 
-   | repo_name | commit_count | watch_count |
-   | :-------: | :----------: | :---------: |
-   |           |              |             |
+    | repo_name | commit_count | watch_count |
+    | :-------: | :----------: | :---------: |
+    |           |              |             |
 
 12. (2 point) Who authored the most commits, and which repos did they contribute to the most?
 
-   List the top 10 authors (*not* committers) who authored most commits along with (1) the total number of commits they authored across all repos, and (2) the repo that they contributed the most.
+    List the top 10 authors (*not* committers) who authored most commits along with (1) the total number of commits they authored across all repos, and (2) the repo that they contributed the most.
 
-   To simplify the problem, please use the combination of name and email as the unique identifier for authors.
+    To simplify the problem, please use the combination of name and email as the unique identifier for authors.
 
-   Order by the total number of commits they authored in all repos (descending).
+    Order by the total number of commits they authored in all repos (descending).
 
-   | author_name | commit_count | repo_name |
-   | :---------: | :----------: | :-------: |
-   |             |              |           |
+    | author_name | commit_count | repo_name |
+    | :---------: | :----------: | :-------: |
+    |             |              |           |
 
 13. (2 point) Git allows a committer to commit on behalf of an author. For example, when you create a pull request on GitHub to contribute to an open-source project, the maintainer can commit your changes on your behalf after approving them.
 
-   For each repo, calculate the ratio of commits where the author is the same as the committer. This ratio is obtained by dividing the number of such commits by the total number of commits in the repo (i.e., a ratio of 1 means that the author is the committer for all commits). Round the ratio to **two decimal places**.
+    For each repo, calculate the ratio of commits where the author is the same as the committer. This ratio is obtained by dividing the number of such commits by the total number of commits in the repo (i.e., a ratio of 1 means that the author is the committer for all commits). Round the ratio to **two decimal places**.
 
-   To simplify the problem, please use the combination of name and email as the unique identifier for authors and committers.
+    To simplify the problem, please use the combination of name and email as the unique identifier for authors and committers.
 
-   Order by `repo_name` (descending).
+    Order by `repo_name` (descending).
 
-   **HINT**: Use the `ROUND` function for rounding the ratio to the appropriate number of decimal places.
+    **HINT**: Use the `ROUND` function for rounding the ratio to the appropriate number of decimal places.
 
-   | repo_name | ratio |
-   | :-------: | :---: |
-   |           |       |
+    | repo_name | ratio |
+    | :-------: | :---: |
+    |           |       |
 
 14. (2 points) For each repo, find the author who authored most commits, the committer who committed most commits, and the language that occupies the most bytes.
 
-   To simplify the problem, please use the combination of name and email as the unique identifier for authors and committers.
+    To simplify the problem, please use the combination of name and email as the unique identifier for authors and committers.
 
-   Order by `repo_name` (descending).
+    Order by `repo_name` (descending).
 
-   | repo_name | author_name | committer_name | language |
-   | :-------: | :---------: | :------------: | :------: |
-   |           |             |                |          |
+    | repo_name | author_name | committer_name | language |
+    | :-------: | :---------: | :------------: | :------: |
+    |           |             |                |          |
 
 15. (2 points) For repos that use the `mit` licence and with at least `8000` watch count, find the main author who authored most commits.
 
-   To simplify the problem, please use the combination of name and email as the unique identifier for authors.
+    To simplify the problem, please use the combination of name and email as the unique identifier for authors.
 
-   Order by `repo_name` (descending).
+    Order by `repo_name` (descending).
 
-   | repo_name | license | watch_count | author_name |
-   | :-------: | :-----: | :---------: | :---------: |
-   |           |         |             |             |
+    | repo_name | license | watch_count | author_name |
+    | :-------: | :-----: | :---------: | :---------: |
+    |           |         |             |             |
 
 
 
