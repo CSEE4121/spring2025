@@ -131,22 +131,22 @@ No textbook.
 <tr>
 <td markdown="span">4</td>
 <td markdown="span">Transactions and Logging (2/13)</td>
-<th>Written homework 1 out</th>
+<th></th>
 </tr>
 <tr>
 <td markdown="span">5</td>
 <td markdown="span">Storage/memory hierarchy (2/20)</td>
-<th></th>
+<th>Written homework 1 out</th>
 </tr>
 <tr>
 <td markdown="span">6</td>
 <td markdown="span"> Indexing (2/27)</td>
-<th>Written homework 1 due, Programming HW 2 out</th>
+<th></th>
 </tr>
 <tr>
 <td markdown="span">7</td>
 <td markdown="span">Midterm</td>
-<th>Programming HW 1 due (3/6, 4:59:59 PM)</th>
+<th>Written homework 1 due (3/3, 4:59:59 PM), Programming HW 1 due (3/6, 4:59:59 PM), Programming HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">8</td>
