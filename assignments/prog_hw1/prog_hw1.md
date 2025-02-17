@@ -202,15 +202,15 @@ Do not edit the file manually after downloading -- it may break our autograder.
 
 7. (2 points) Which programming languages are most common among the popular repos?
 
-    Among the top 100 repos with highest watch counts, list the name of each programming language used in these 100 repos and its occurance among these 100 repos, in descending order of the occurance. 
+    Among the top 100 repos with highest watch counts, list the name of each programming language used in these 100 repos and its occurrence among these 100 repos, in descending order of the occurrence. 
 
-    Order by the occurance (descending), and then by language name (descending).
+    Order by the occurrence (descending), and then by language name (descending).
 
     For a repo that uses multiple languages, all these languages are considered regardless of the number of bytes.
 
-    | name | occurance |
-    | :--: | :-------: |
-    |      |           |
+    | name | occurrence |
+    | :--: | :--------: |
+    |      |            |
 
 8. (2 points) List the name of each programming language with the repo_name of the repo that has most commits among the repos using this language.
 
