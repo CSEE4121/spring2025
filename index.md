@@ -146,12 +146,12 @@ No textbook.
 <tr>
 <td markdown="span">7</td>
 <td markdown="span">Midterm</td>
-<th>Written homework 1 due (3/3, 4:59:59 PM), Programming HW 1 due (3/6, 4:59:59 PM), Programming HW 2 out</th>
+<th>Written homework 1 due (3/3, 4:59:59 PM), Programming HW 1 due (3/6, 4:59:59 PM)</th>
 </tr>
 <tr>
 <td markdown="span">8</td>
 <td markdown="span">Challenges in Scaling (3/13)</td>
-<th></th>
+<th> Programming HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">9</td>
@@ -161,12 +161,12 @@ No textbook.
 <tr>
 <td markdown="span">10</td>
 <td markdown="span">Analytics (3/27)</td>
-<th>Programming HW 2 due</th>
+<th></th>
 </tr>
 <tr>
 <td markdown="span">11</td>
 <td markdown="span">ML Single Node (4/3)</td>
-<th>Written HW 2 out</th>
+<th>Programming HW 2 due, Written HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">12</td>
