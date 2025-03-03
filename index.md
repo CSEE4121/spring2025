@@ -180,7 +180,7 @@ No textbook.
 </tr>
 <tr>
 <td markdown="span">14</td>
-<td markdown="span">Guest Lecture: Junaid Ahmed, VP Engineering, Observability, DataDog. 5:30 PM for both sections, in person + live on Zoom + recorded (4/24)</td>
+<td markdown="span">Guest Lecture: Junaid Ahmed, VP Engineering, Observability, DataDog. Friday 5:30 PM for both sections, in person + live on Zoom + recorded (4/25)</td>
 <th>Written HW 2 due</th>
 </tr>
 <tr>
