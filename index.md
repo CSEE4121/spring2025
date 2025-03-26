@@ -151,7 +151,7 @@ No textbook.
 <tr>
 <td markdown="span">8</td>
 <td markdown="span">Challenges in Scaling (3/13)</td>
-<th> Programming HW 2 out</th>
+<th></th>
 </tr>
 <tr>
 <td markdown="span">9</td>
@@ -161,12 +161,12 @@ No textbook.
 <tr>
 <td markdown="span">10</td>
 <td markdown="span">Analytics (3/27)</td>
-<th></th>
+<th> Programming HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">11</td>
 <td markdown="span">ML Single Node (4/3)</td>
-<th>Programming HW 2 due, Written HW 2 out</th>
+<th> Written HW 2 out</th>
 </tr>
 <tr>
 <td markdown="span">12</td>
@@ -181,7 +181,7 @@ No textbook.
 <tr>
 <td markdown="span">14</td>
 <td markdown="span">Guest Lecture: Junaid Ahmed, VP Engineering, Observability, DataDog. Friday 5:30 PM for both sections, in person + live on Zoom + recorded (4/25)</td>
-<th>Written HW 2 due</th>
+<th> Programming HW 2 due, Written HW 2 due</th>
 </tr>
 <tr>
 <td markdown="span">15</td>
