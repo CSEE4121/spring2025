@@ -161,7 +161,7 @@ No textbook.
 <tr>
 <td markdown="span">10</td>
 <td markdown="span">Analytics (3/27)</td>
-<th> [Programming HW 2 out](https://csee4121.github.io/spring2025/assignments/prog_hw2/prog_hw2)</th>
+<th markdown="1">[Programming HW 2 out](https://csee4121.github.io/spring2025/assignments/prog_hw2/prog_hw2)</th>
 </tr>
 <tr>
 <td markdown="span">11</td>
