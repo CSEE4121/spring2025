@@ -89,8 +89,65 @@ We provide three files:
 
 ## Testing
 
-We will provide a set of SST files to test with, along with more details on
-their contents. This will be posted on Ed.
+We provide you with the following test files, along with instructions on how to
+verify that your parser works correctly, step by step.
+
+### basic.sst
+
+This file contains a simple key-value scheme, where the keys and the values are
+the same, for easy verification. The file contains 3000 key-value pairs, from
+`00000000` to `00002999`. This file does not utilize delta compression for the
+index block entries. You should test your parser with this file first, as it is
+the simplest and will help you verify that your parser is working correctly.
+
+We provide you with some sample output for some keys in this file:
+
+```console
+$ python3 ./parser.py basic.sst 00000000
+Metaindex: BlockHandle(offset=63876, size=34)
+Index: BlockHandle(offset=62643, size=301)
+Data block: BlockHandle(offset=0, size=4085)
+Found key '00000000': 00000000
+
+$ python3 ./parser.py basic.sst 00001000
+Metaindex: BlockHandle(offset=63876, size=34)
+Index: BlockHandle(offset=62643, size=301)
+Data block: BlockHandle(offset=20380, size=4068)
+Found key '00001000': 00001000
+
+$ python3 ./parser.py basic.sst 00002999
+Metaindex: BlockHandle(offset=63876, size=34)
+Index: BlockHandle(offset=62643, size=301)
+Data block: BlockHandle(offset=61214, size=1424)
+Found key '00002999': 00002999
+```
+
+### delta.sst
+
+This file has the same key-value scheme as `basic.sst`, but it uses delta
+compression for the index block entries.
+
+We provide you with sample output for some keys in this file:
+
+```console
+$ python3 ./parser.py delta.sst 00000000
+Metaindex: BlockHandle(offset=63700, size=34)
+Index: BlockHandle(offset=62643, size=125)
+Data block: BlockHandle(offset=0, size=4085)
+Found key '00000000': 00000000
+
+$ python3 ./parser.py delta.sst 00001000
+Metaindex: BlockHandle(offset=63700, size=34)
+Index: BlockHandle(offset=62643, size=125)
+Data block: BlockHandle(offset=20380, size=4068)
+Found key '00001000': 00001000
+
+$ python3 ./parser.py delta.sst 00002999
+Metaindex: BlockHandle(offset=63700, size=34)
+Index: BlockHandle(offset=62643, size=125)
+Data block: BlockHandle(offset=61214, size=1424)
+Found key '00002999': 00002999
+```
 
 ## Submission
 
