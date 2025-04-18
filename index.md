@@ -181,12 +181,12 @@ No textbook.
 <tr>
 <td markdown="span">14</td>
 <td markdown="span">Guest Lecture: Junaid Ahmed, VP Engineering, Observability, DataDog. Friday 5:30 PM for both sections, in person + live on Zoom + recorded (4/25)</td>
-<th> Programming HW 2 due, Written HW 2 due (4/25, 4:59:59PM)</th>
+<th> Programming HW 2 due (4/25, 4:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">15</td>
 <td markdown="span">Final Exam (5/2, 10:10 AM – 12:40 PM)</td>
-<th></th>
+<th>Written HW 2 due (4/30, 1:59:59PM)</th>
 </tr>
 <tr>
 
