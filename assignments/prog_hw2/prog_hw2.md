@@ -149,6 +149,36 @@ Data block: BlockHandle(offset=61214, size=1424)
 Found key '00002999': 00002999
 ```
 
+### variable.sst
+
+This file has variable-length keys and values, using delta compression for
+the index block entries.
+
+The file contains keys from 0-10000, with the values being `key * 10 + 1`.
+Note that in contrast to the other files, the keys are not zero-padded.
+
+We provide you with sample output for some keys in this file:
+
+```console
+$ python3 ./parser.py variable.sst 0
+Metaindex: BlockHandle(offset=174969, size=34)
+Index: BlockHandle(offset=173688, size=349)
+Data block: BlockHandle(offset=0, size=4083)
+Found key '0': 1
+
+$ python3 ./parser.py variable.sst 1000
+Metaindex: BlockHandle(offset=174969, size=34)
+Index: BlockHandle(offset=173688, size=349)
+Data block: BlockHandle(offset=0, size=4083)
+Found key '1000': 10001
+
+$ python3 ./parser.py variable.sst 10000
+Metaindex: BlockHandle(offset=174969, size=34)
+Index: BlockHandle(offset=173688, size=349)
+Data block: BlockHandle(offset=0, size=4083)
+Found key '10000': 100001
+```
+
 ## Submission
 
 This is a solo project. Every student should submit their own work.
