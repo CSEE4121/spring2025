@@ -181,7 +181,7 @@ No textbook.
 <tr>
 <td markdown="span">14</td>
 <td markdown="span">Guest Lecture: Junaid Ahmed, VP Engineering, Observability, DataDog. Friday 2:30 PM for both sections, in person (Chandler 402) + live on Zoom + recorded (4/25); No regular lecture on Thursday</td>
-<th> Programming HW 2 due (4/25, 4:59:59PM)</th>
+<th> Programming HW 2 due (4/25, 5:59:59PM)</th>
 </tr>
 <tr>
 <td markdown="span">15</td>
