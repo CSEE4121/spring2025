@@ -75,7 +75,7 @@ Section 2: Thursdays 1:10 PM – 3:40 PM
 
 ## Final Exam
 Date: Friday, May 2, 2025<br />
-Time: 10:10 AM – 12:40 PM<br />
+Time: 10:10 AM – 12:10 PM<br />
 Location: International Affairs Building, IAB 417 - Altschul
 
 ## Grade Breakdown
